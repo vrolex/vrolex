@@ -1,0 +1,13 @@
+export SIGNER=B268D7C4DD25D552
+export VERSION=0.14.6
+sudo rm -R /home/debian/vrolex
+sudo rm -R /home/debian/gitian-builder/inputs/vrolex
+cd ..
+git clone https://github.com/vrolex-project/vrolex.git
+
+pushd ./vrolex
+git fetch
+git checkout v${VERSION}
+popd
+
+
