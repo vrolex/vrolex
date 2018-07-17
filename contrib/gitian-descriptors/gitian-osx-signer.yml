@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/vrolex-project/vrolex-detached-sigs.git"
+- "url": "https://github.com/vrolex/vrolex-detached-sigs.git"
   "dir": "signature"
 files:
 - "vrolex-osx-unsigned.tar.gz"
